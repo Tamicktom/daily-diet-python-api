@@ -21,8 +21,8 @@ readme = "README.md"
 license = { text = "MIT" }
 
 [tool.pdm.scripts]
-dev = "python3 src/app/__init__.py"
-migrate = "python3 src/app/migrate.py"
+dev = "python3 src/api/__init__.py"
+migrate = "python3 src/api/migrate.py"
 test = "pytest"
 test-watch = "ptw ."
 
