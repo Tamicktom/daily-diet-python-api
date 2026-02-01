@@ -14,6 +14,7 @@ dependencies = [
     "pymysql>=1.1.2",
     "cryptography>=46.0.4",
     "bcrypt>=5.0.0",
+    "pytest-watcher>=0.6.3",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
@@ -23,6 +24,7 @@ license = { text = "MIT" }
 dev = "python3 src/app/__init__.py"
 migrate = "python3 src/app/migrate.py"
 test = "pytest"
+test-watch = "ptw ."
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
