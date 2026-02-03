@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:f4dabaf4329df2e17921a5133fc1e7ce77007c04d7cdb3149fd8b0c3d66239a0"
+content_hash = "sha256:83087b00e6b737fce6435972fa6d41916884fa0173f4bd7f36e1dc181dbb4d51"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
@@ -437,6 +437,17 @@ dependencies = [
 files = [
     {file = "pytest_watcher-0.6.3-py3-none-any.whl", hash = "sha256:83e7748c933087e8276edb6078663e6afa9926434b4fd8b85cf6b32b1d5bec89"},
     {file = "pytest_watcher-0.6.3.tar.gz", hash = "sha256:842dc904264df0ad2d5264153a66bb452fccfa46598cd6e0a5ef1d19afed9b13"},
+]
+
+[[package]]
+name = "python-dotenv"
+version = "1.2.1"
+requires_python = ">=3.9"
+summary = "Read key-value pairs from a .env file and set them as environment variables"
+groups = ["default"]
+files = [
+    {file = "python_dotenv-1.2.1-py3-none-any.whl", hash = "sha256:b81ee9561e9ca4004139c6cbba3a238c32b03e4894671e181b671e8cb8425d61"},
+    {file = "python_dotenv-1.2.1.tar.gz", hash = "sha256:42667e897e16ab0d66954af0e60a9caa94f0fd4ecf3aaf6d2d260eec1aa36ad6"},
 ]
 
 [[package]]
